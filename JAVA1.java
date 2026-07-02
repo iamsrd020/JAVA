@@ -85,3 +85,23 @@ class person {
  * Not recommended to use long identifiers because it will reduce the
  * readability of the code.
  */
+
+// We cant use resreverd words as identifiers in JAVA.
+// int x = 10; // this can be used as an identifier because x is not a reserved
+// word in JAVA
+// int if = 20; // invalid identifier because if is a reserved word in JAVA
+
+class test3 {
+    public static void main(String[] args) {
+        int String = 8888;
+        System.out.println(String);
+
+        int Runnable = 999;
+        System.out.println(Runnable);
+    }
+}
+
+/*
+ * The above example class test3 shud not be used, because it goes against the
+ * naming conventions and can lead to confusion.
+ */
