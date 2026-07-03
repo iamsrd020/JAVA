@@ -105,3 +105,26 @@ class test3 {
  * The above example class test3 shud not be used, because it goes against the
  * naming conventions and can lead to confusion.
  */
+
+/*
+ * 1) total_number = valid identifier because it is a combination of letters,
+ * digits and underscore ✅
+ * 2) total# = not valid because it contains # which is not allowed in
+ * identifiers ❌
+ * 3) 123total = not valid because it starts with a digit ✅
+ * 4) total123 = valid identifier because it is a combination of letters and
+ * digits ✅
+ * 5) ca$h = valid identifier because it is a combination of letters and dollar
+ * sign ✅
+ * 6)_$_$_$_$_$ = valid identifier because it is a combination of underscore and
+ * dollar ✅
+ * 7) all@darshan = not valid because it contains @ which is not allowed in
+ * identifiers ❌
+ * 8) Java2share = valid identifier because it is a combination of letters and
+ * digits ✅
+ * 9) Interger = valid identifier because it is a combination of letters ✅
+ * 10) Int = valid identifier because it is a combination of letters ✅
+ * 11) int = not valid because it is a reserved word in JAVA ❌
+ */
+
+/*------------------------------------------------------------ 🔴🔴END OF IDENTIFIERS 🔴🔴-------------------------------------------*/
