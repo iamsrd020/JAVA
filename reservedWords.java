@@ -75,3 +75,54 @@ public class ReservedWords {
  * In java return type is mandatory, if a method wont return anything then we
  * have to decalre that method with void return type
  */
+
+/*
+ * Unused keywords eg: const, goto
+ * therefore, goto created several problems in the past or older languaged so,
+ * it was decided to remove it from the language JAVA.
+ * 
+ * &&
+ * 
+ * Insted of const, we can use final keyword.
+ */
+
+/*
+ * Reserved Literals eg: true, false, null
+ * 
+ * true and false are used for boolean data type
+ * null is used to represent the null value or it is a default value for object
+ * reference variable
+ */
+
+/* Enum keyword: We can use enum to define a group of named constants */
+
+enum Color {
+    RED, GREEN, BLUE
+}
+
+enum months {
+    JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER
+}
+
+enum Beer {
+    KINGFISHER, BIRA, BUDWEISER, HEINEKEN, CORONA
+}
+
+/*
+ * CONCLUSION🔴🔴🔴
+ * 1) All 53 reserved words are case sensitive, so we have to use them in lower
+ * case only
+ * 2) In java we have only new keyword, and there is no delete keyword, so we
+ * can use new keyword to create an object and to delete that object we can use
+ * null value
+ * 3) In java we have only new keyword, and there is no delete keyword,because
+ * destruction of useless objects is handled by Garbage Collector(GC) in JAVA.
+ * 4) the following 3 are the new keywords introduced in JAVA 1.2, 1.4, and 1.5
+ * respectively they are strictfp(1.2), assert(1.4), and enum(1.5) keywords.
+ * 
+ * 
+ * a) strictfp butnot strictFp.
+ * b) assert but not Assert.
+ * c) enum but not Enum.
+ * d) instanceof but not instanceOf, etc, etc .........
+ */
