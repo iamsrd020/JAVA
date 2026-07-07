@@ -1,4 +1,4 @@
-/* 🟢🟢🟢🟢🟢 DATA TYPES IN JAVA 🟢🟢🟢🟢🟢 */
+/* 🟢🟢🟢🟢 DATA TYPES IN JAVA 🟢🟢🟢🟢 */
 
 /*
  * 1) In JAVA, every variable and every expression has some data type
